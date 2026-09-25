@@ -477,6 +477,10 @@
 ||sf3-be-pack.pglstatp-toutiao.com^
 ||p3-be-pack-sign.pglstatp-toutiao.com^
 ||p6-be-pack-sign.pglstatp-toutiao.com^
+||isaas5-normal-hl.ecombdapi.com^
+||p26-item.ecombdimg.com^
+||p11.douyinpic.com^
+||p26.douyinpic.com^
 
 
 ! ============================================================
