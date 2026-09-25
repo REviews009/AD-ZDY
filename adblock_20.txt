@@ -1,0 +1,15 @@
+[Adblock Plus 2.0]
+! Version: 20260925
+! Title: 常用App去广告
+! Homepage: https://github.com/RReviews009/AD-ZDY
+! -------------------------------
+! 小红书 - 广告请求
+/^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config/
+/^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/resource/
+/^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed/
+/^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hot_list/
+/^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/tag\/ads_engage/
+
+! 红果短剧 - 广告SDK
+||zijieapi.com^
+||tp-pay.snssdk.com^
