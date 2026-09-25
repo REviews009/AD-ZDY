@@ -481,6 +481,15 @@
 ||p26-item.ecombdimg.com^
 ||p11.douyinpic.com^
 ||p26.douyinpic.com^
+||isaas5-normal-hl.ecombdapi.com^
+||p26-item.ecombdimg.com^
+||p3-item.ecombdimg.com^
+||p3-aio.ecombdimg.com^
+||p11-webcast-sign.douyinpic.com^
+||p3-webcast.douyinpic.com^
+||p3.douyinpic.com^
+||p26.douyinpic.com^
+||mmbiz.qpic.cn^
 
 
 ! ============================================================
