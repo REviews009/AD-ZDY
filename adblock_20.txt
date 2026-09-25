@@ -1,13 +1,99 @@
 [Adblock Plus 2.0]
 ! Version: 20260925
-! Title: 红果短剧精准去广告
+! Title: 红果短剧精准去广告 + 综合白名单/广告拦截
 ! Homepage: https://github.com/RReviews009/AD-ZDY
 ! -------------------------------
 ! 说明：
 ! 红果短剧 / 穿山甲 / 字节广告精准拦截
 ! 尽量避免直接封禁 snssdk.com、byteimg.com、
 ! zijieapi.com、bytedance.com 等基础业务域
+! 同时合并白名单、B站、抖音、小红书、穿山甲、
+! 广点通、Sigmob、Mintegral、百度广告等规则
 ! -------------------------------
+
+
+! ============================================================
+! 白名单（确保正常访问）
+! ============================================================
+
+@@||okx.com^
+@@||binance.com^
+@@||coinbase.com^
+@@||kraken.com^
+@@||jd.com^
+@@||tracker.hhanclub.net^
+@@||nvidia.com^
+@@||alipay.com^
+@@||alipayobjects.com^
+@@||alicdn.com^
+@@||pddcdn.com^
+@@||yangkeduo.com^
+@@||idlefish.com^
+@@||bankcomm.com^
+@@||icbc.com.cn^
+@@||boc.cn^
+@@||ccb.com^
+@@||abchina.com^
+@@||95516.com^
+@@||unionpay.com^
+@@||12306.cn^
+@@||amap.com^
+@@||didi.cn^
+@@||ele.me^
+@@||189.cn^
+@@||gov.cn^
+@@||zhihu.com^
+@@||163.com^
+@@||captive.apple.com^$important
+@@||www.apple.com^$important
+@@||gsp1.apple.com^$important
+@@||aweme.snssdk.com^
+@@||api.amemv.com^
+@@||sns-img-qc.xhscdn.com^
+@@||sns-video-qc.xhscdn.com^
+@@||sns-video-hw.xhscdn.com^
+@@||guid.tpns.tencent.com^$important
+@@||access1.tpns.tencent.com^$important
+@@||log.tpns.tencent.com^$important
+@@||log.tpns.tencent.com^$client='周帅'
+@@||hybrid.sellfox.com^$important
+@@||www.sellfox.com^$important
+@@||events.sellfox.com^$important
+@@||s1.sellfox.com^$important
+@@||prod.otel.kaizen.nvidia.com^$important
+@@||events.gfe.nvidia.com^$important
+@@||notice.sellfox.com^$important
+@@||vv.video.qq.com^
+@@||livep2pl.qq.com^
+@@||ios.video.mpush.qq.com^
+@@||*.video.qq.com^
+@@||cory.boostgroove.com^$important
+@@||a.nel.cloudflare.com^$important
+@@||sparrow.cloudflare.com^$important
+@@||geolocation.onetrust.com^$important
+@@||geolocation.onetrust.com^$client='电脑'
+@@||beacons.gcp.gvt2.com^$important
+@@||beacons.gvt2.com^$important
+@@||beacons2.gvt2.com^$important
+@@||beacons3.gvt2.com^$important
+@@||beacons4.gvt2.com^$important
+@@||beacons5.gvt2.com^$important
+@@||beacons5.gvt3.com^$important
+@@||passport.bilibili.cn^$important
+@@||passport.bilibili.cn^$client='电脑'
+@@||sunnytk.top^$important
+@@||v1.hitokoto.cn^$important
+@@||www.17173.com^$important
+@@||newgame.17173.com^$important
+@@||vpnn.linguang.ccwu.cc^$important
+@@||google.linguang.ccwu.cc^$important
+@@||sunnypt.top^$important
+@@||sdk.open.talk.gepush.com^$important
+@@||fp-it.fengkongcloud.com^$important
+@@||sdk.open.talk.getui.net^$important
+@@||ido.gepush.com^$important
+@@||analytics.oceanengine.com^$important
+@@||u2.dmhy.org^$important
 
 
 ! ============================================================
@@ -29,8 +115,22 @@
 ||pangolin-lf.snssdk.com^
 
 ||pangolin-sdk-toutiao.com^
+||pangolin-sdk-toutiao-b.com^
 ||pangolin-sdk-toutiao1.com^
+||pangolin-sdk-toutiao2.com^
+||api-access.pangolin-sdk-toutiao.com^
 ||api-access.pangolin-sdk-toutiao-b.com^
+
+||pangle.io^
+||pangle-b.com^
+||pangle-cdn.com^
+||lf-ad-union-sdk.pglstatp-toutiao.com^
+||sf1-be-pack.pglstatp-toutiao.com^
+||sf3-be-pack.pglstatp-toutiao.com^
+||p3-be-pack-sign.pglstatp-toutiao.com^
+||p6-be-pack-sign.pglstatp-toutiao.com^
+||sf3-fe-tos.pglstatp-toutiao.com^
+||sf3-ttcdn-tos.pstatp.com^
 
 
 ! ============================================================
@@ -40,9 +140,25 @@
 ||i.snssdk.com^
 ||i-lq.snssdk.com^
 ||is.snssdk.com^
+||is-hl.snssdk.com^
+||lf.snssdk.com^
 
 ||mcs.snssdk.com^
 ||security-lq.snssdk.com^
+
+||ad.zijieapi.com^
+||log.zijieapi.com^
+||mcs.zijieapi.com^
+||mon.zijieapi.com^
+
+||ad.toutiao.com^
+||ad.bytedance.com^
+||ads.bytedance.com^
+||ad-debug.bytedance.com^
+||ad-sign.bytedance.com^
+||ad-tracker.bytedance.com^
+||ad.douyin.com^
+||log.douyin.com^
 
 
 ! ============================================================
@@ -53,6 +169,11 @@
 ||mcs.snssdk.com^
 ||log.snssdk.com^
 ||mon.snssdk.com^
+||effect.snssdk.com^
+||ichannel.snssdk.com^
+||extlog.snssdk.com^
+||bds.snssdk.com^
+||analytics.snssdk.com^
 
 
 ! ============================================================
@@ -65,6 +186,11 @@
 ||ad-app-package.byteimg.com^
 ||web.business.image.byteimg.com^
 
+||ad-sign.byteimg.com^
+||*novel-sign*.byteimg.com^
+||lf-ad-nhs-pos.byteimg.com^
+||p3-novel.byteimg.com^
+
 
 ! ============================================================
 ! 红果短剧 - 已知字节广告相关域
@@ -73,6 +199,10 @@
 ||activity-ag.awemeughun.com^
 ||dig.bdurl.net^
 ||ctobsnssdk.com^
+||tobapplog.ctobsnssdk.com^
+||toblog.ctobsnssdk.com^
+||toblog.tobsnssdk.com^
+||toblog.bytedance.com^
 
 
 ! ============================================================
@@ -84,6 +214,10 @@
 ||tnc3-alisc1.snssdk.com^
 ||tnc3-aliec2.snssdk.com^
 
+||tnc3-alisc1.zijieapi.com^
+||tnc3-alisc2.zijieapi.com^
+||tnc3-bjlgy.zijieapi.com^
+
 
 ! ============================================================
 ! 红果短剧 - 广告跳转 / 广告联盟
@@ -91,9 +225,17 @@
 
 ||mobads.baidu.com^
 ||mobads-logs.baidu.com^
+||splash.bdstatic.com^
 
 ||gdt.qq.com^
 ||api.iegadp.qq.com^
+||gdtimg.com^
+||mi.gdt.qq.com^
+||splashqqlive.gdtimg.com^
+||adcdn.tencent.com^
+||adcdn.tencentmusic.com^
+||adclick.tencentmusic.com^
+||adexpo.tencentmusic.com^
 
 
 ! ============================================================
@@ -101,9 +243,27 @@
 ! ============================================================
 
 ||sigmob.cn^
+||cdn.sigmob.com^
+||track.sigmob.com^
+||sigmob.com^
+
 ||anythinktech.com^
 ||api.hzsanjiaomao.com^
 ||api.juliangcili.com^
+
+||mintegral.com^
+||android.mintegral.com^
+||sdkapi.mintegral.com^
+
+||admob.com^
+||googleadservices.com^
+||googlesyndication.com^
+||googletagmanager.com^
+||googletagservices.com^
+||applovin.com^
+||launch.appsflyer.com^
+||vungle.com^
+||splash.qq.com^
 
 
 ! ============================================================
@@ -136,6 +296,251 @@
 ||mcs.snssdk.com^
 ||log.snssdk.com^
 ||mon.snssdk.com^
+
+
+! ============================================================
+! 红果短剧 广告/追踪域名补充
+! ============================================================
+
+! --- 火山引擎广告/负载均衡 ---
+||vegslb.com^
+||volcengine.com^
+||volcengineapi.com^
+
+! --- 字节电商广告API ---
+||ecombdapi.com^
+||ecombdimg.com^
+||ecombdstatic.com^
+||obj.ecombdstatic.com^
+
+! --- 字节Gecko广告组件 ---
+||bytegecko.com^
+||byteeffecttos.com^
+||lf-sourcecdn-tos.bytegecko.com^
+
+! --- 头条/番茄监控配置 ---
+||monsetting.toutiao.com^
+||zlink.toutiao.com^
+||tosv.byted.org^
+
+! --- 番茄小说专用广告CDN ---
+||fqnovelstatic.com^
+||fqnovelvod.com^
+||v3-novelapp.fqnovelvod.com^
+||lf3-reading.fqnovelpic.com^
+||p3-novel.byteimg.com^
+||lf-ad-nhs-pos.byteimg.com^
+||log0-applog-lq.fqnovel.com^
+||frontier*.fqnovel.com^
+||*reading-sign*.fqnovelpic.com^
+
+! --- 小说FM广告 ---
+||api.novelfm.com^
+
+! --- 穿山甲广告配置/日志 ---
+||panglelog.gz.bcebos.com^
+
+! --- zijieapi 广告数据同步/AB测试 ---
+||saveu5-normal-hl.zijieapi.com^
+||imapi5-oth-lf.zijieapi.com^
+||bsync3-normal-hl.zijieapi.com^
+||bsync3-normal.zijieapi.com^
+||bsync*.zijieapi.com^
+||abtest3-misc-hl.zijieapi.com^
+||polaris5-normal-hl.zijieapi.com^
+||polaris5-normal-lq.zijieapi.com^
+||gecko5-lq.zijieapi.com^
+||mssdk3-normal-hl.zijieapi.com^
+
+! --- snssdk 追踪补充 ---
+||effect.snssdk.com^
+||ichannel.snssdk.com^
+||extlog.snssdk.com^
+||bds.snssdk.com^
+||mon.snssdk.com^
+||is-hl.snssdk.com^
+
+! --- 字节短链接/追踪 ---
+||dig.bdurl.net^
+
+! --- 抖音直播广告签名 ---
+||p1-webcast-sign.douyinpic.com^
+||p2-webcast-sign.douyinpic.com^
+||p3-webcast-sign.douyinpic.com^
+||p4-webcast-sign.douyinpic.com^
+||p5-webcast-sign.douyinpic.com^
+||p6-webcast-sign.douyinpic.com^
+||p7-webcast-sign.douyinpic.com^
+||p8-webcast-sign.douyinpic.com^
+||p9-webcast-sign.douyinpic.com^
+||webcast5-open-hl.douyin.com^
+||pull-flv-cny01-spe-l11.douyinliving.com^
+
+! --- 其他字节广告/追踪 ---
+||ksyungslb.com^
+||saxysec.com^
+||uril6.com^
+||yuanbaobaoxian.com^
+
+
+! ============================================================
+! B站广告拦截
+! ============================================================
+
+||ad.api.bilibili.com^
+||ad.bilibili.com^
+||ad.hdslb.com^
+||broadcast.chat.bilibili.com^
+||cm.bilibili.com^
+||data.bilibili.com^
+||log.bilibili.com^
+
+! 以下为B站广告/追踪域名
+||api.bilibili.com/x/v2/ad^$important
+||app.bilibili.com/x/v2/ad^$important
+||app.bilibili.com/x/v2/splash^$important
+||api.bilibili.com/x/v2/splash^$important
+||app.bilibili.com/x/resource/show/tab/v2^$important
+||api.bilibili.com/x/resource/show/tab/v2^$important
+||api.bilibili.com/x/resource/floating^$important
+||api.bilibili.com/x/resource/top/activity^$important
+||api.bilibili.com/x/resource/show/skin^$important
+||api.bilibili.com/x/resource/popup^$important
+||app.bilibili.com/x/v2/feed/index^$important
+||app.bilibili.com/x/v2/search/square^$important
+||api.bilibili.com/pgc/activity/deliver^$important
+||api.bilibili.com/x/v2/dm/advance^$important
+||api.bilibili.com/x/player/wbi/v2^$important
+||api.bilibili.com/x/resource/peak/download^$important
+
+
+! ============================================================
+! 抖音广告拦截
+! ============================================================
+
+||activity-ag.awemeughun.com^
+||ad-debug.bytedance.com^
+||ad-sign.bytedance.com^
+||ad-tracker.bytedance.com^
+||ad.douyin.com^
+||ad.toutiao.com^
+||ad.zijieapi.com^
+||bds.snssdk.com^
+||i.snssdk.com^
+||is.snssdk.com^
+||lf-ad-union-sdk.pglstatp-toutiao.com^
+||log.douyin.com^
+||log.snssdk.com^
+||mon.zijieapi.com^
+||mssdk.bytedance.com^
+||pangolin-lf-toutiao-b.com^
+||pangolin-lf-toutiao.com^
+||pangolin-sdk-toutiao-b.com^
+||pangolin-sdk-toutiao.com^
+||pangolin.snssdk.com^
+||tobapplog.ctobsnssdk.com^
+||toblog.ctobsnssdk.com^
+
+
+! ============================================================
+! 小红书广告拦截
+! ============================================================
+
+||ad.xiaohongshu.com^
+||ads.xiaohongshu.com^
+||apm-fe.xiaohongshu.com^
+||dsp.xiaohongshu.com^
+||event.xiaohongshu.com^
+||fe.xiaohongshu.com^
+||lng.xiaohongshu.com^
+||log.xiaohongshu.com^
+||logger.xiaohongshu.com^
+||t2.xiaohongshu.com^
+||trace.xiaohongshu.com^
+||track.xiaohongshu.com^
+
+
+! ============================================================
+! 穿山甲（字节跳动广告SDK，B站开屏广告主要来源之一）
+! ============================================================
+
+||pangolin-sdk-toutiao.com^
+||api-access.pangolin-sdk-toutiao.com^
+||pangolin-sdk-toutiao-b.com^
+||pangolin-sdk-toutiao1.com^
+||pangolin-sdk-toutiao2.com^
+||pangle.io^
+||pangle-b.com^
+||pangle-cdn.com^
+||lf-ad-union-sdk.pglstatp-toutiao.com^
+||sf1-be-pack.pglstatp-toutiao.com^
+||sf3-be-pack.pglstatp-toutiao.com^
+||p3-be-pack-sign.pglstatp-toutiao.com^
+||p6-be-pack-sign.pglstatp-toutiao.com^
+
+
+! ============================================================
+! 腾讯广点通（GDT，B站常用）
+! ============================================================
+
+||gdt.qq.com^
+||gdtimg.com^
+||mi.gdt.qq.com^
+||splashqqlive.gdtimg.com^
+||adcdn.tencent.com^
+||adcdn.tencentmusic.com^
+||adclick.tencentmusic.com^
+||adexpo.tencentmusic.com^
+
+
+! ============================================================
+! Sigmob（B站开屏广告常用）
+! ============================================================
+
+||sigmob.com^
+||cdn.sigmob.com^
+||track.sigmob.com^
+
+
+! ============================================================
+! Mintegral（B站游戏广告常用）
+! ============================================================
+
+||mintegral.com^
+||android.mintegral.com^
+||sdkapi.mintegral.com^
+
+
+! ============================================================
+! 百度移动广告
+! ============================================================
+
+||mobads.baidu.com^
+||mobads-logs.baidu.com^
+||splash.bdstatic.com^
+
+
+! ============================================================
+! 其他常见开屏广告SDK
+! ============================================================
+
+||admob.com^
+||googleadservices.com^
+||googlesyndication.com^
+||googletagmanager.com^
+||googletagservices.com^
+||applovin.com^
+||launch.appsflyer.com^
+||vungle.com^
+||splash.qq.com^
+
+
+! ============================================================
+! Mintegral（群晖）
+! ============================================================
+
+||quickconnect.to^
+||apiauth.quickconnect.cn^
 
 
 ! ============================================================
