@@ -1,15 +1,150 @@
 [Adblock Plus 2.0]
 ! Version: 20260925
-! Title: 常用App去广告
+! Title: 红果短剧精准去广告
 ! Homepage: https://github.com/RReviews009/AD-ZDY
 ! -------------------------------
-! 小红书 - 广告请求
-/^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config/
-/^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/resource/
-/^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed/
-/^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hot_list/
-/^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/tag\/ads_engage/
+! 说明：
+! 红果短剧 / 穿山甲 / 字节广告精准拦截
+! 尽量避免直接封禁 snssdk.com、byteimg.com、
+! zijieapi.com、bytedance.com 等基础业务域
+! -------------------------------
 
-! 红果短剧 - 广告SDK
-||zijieapi.com^
-||tp-pay.snssdk.com^
+
+! ============================================================
+! 红果短剧 - 已知广告接口
+! ============================================================
+
+||pangolin-sdk-toutiao.com^
+||pangolin-sdk-toutiao1.com^
+||api-access.pangolin-sdk-toutiao-b.com^
+
+
+! ============================================================
+! 红果短剧 - 穿山甲 / Pangle
+! ============================================================
+
+||pangolin.snssdk.com^
+||pangolin-lq.snssdk.com^
+||pangolin-hl.snssdk.com^
+||pangolin-lf.snssdk.com^
+
+||pangolin-sdk-toutiao.com^
+||pangolin-sdk-toutiao1.com^
+||api-access.pangolin-sdk-toutiao-b.com^
+
+
+! ============================================================
+! 红果短剧 - 字节广告接口
+! ============================================================
+
+||i.snssdk.com^
+||i-lq.snssdk.com^
+||is.snssdk.com^
+
+||mcs.snssdk.com^
+||security-lq.snssdk.com^
+
+
+! ============================================================
+! 红果短剧 - 字节广告统计
+! ============================================================
+
+||gurd.snssdk.com^
+||mcs.snssdk.com^
+||log.snssdk.com^
+||mon.snssdk.com^
+
+
+! ============================================================
+! 红果短剧 - 广告素材 CDN
+! ============================================================
+
+||p6-ad-sign.byteimg.com^
+||p9-ad-sign.byteimg.com^
+
+||ad-app-package.byteimg.com^
+||web.business.image.byteimg.com^
+
+
+! ============================================================
+! 红果短剧 - 已知字节广告相关域
+! ============================================================
+
+||activity-ag.awemeughun.com^
+||dig.bdurl.net^
+||ctobsnssdk.com^
+
+
+! ============================================================
+! 红果短剧 - 已知 TNC 广告/配置相关节点
+! 只保留公开规则中较明确的节点
+! 不直接封整个 zijieapi.com / snssdk.com
+! ============================================================
+
+||tnc3-alisc1.snssdk.com^
+||tnc3-aliec2.snssdk.com^
+
+
+! ============================================================
+! 红果短剧 - 广告跳转 / 广告联盟
+! ============================================================
+
+||mobads.baidu.com^
+||mobads-logs.baidu.com^
+
+||gdt.qq.com^
+||api.iegadp.qq.com^
+
+
+! ============================================================
+! 红果短剧 - 其他已知广告 SDK
+! ============================================================
+
+||sigmob.cn^
+||anythinktech.com^
+||api.hzsanjiaomao.com^
+||api.juliangcili.com^
+
+
+! ============================================================
+! 红果短剧 - 其他广告联盟
+! ============================================================
+
+||qttunion.com^
+||qm989.com^
+
+
+! ============================================================
+! 红果短剧 - 拼多多广告相关
+! ============================================================
+
+||adim.pinduoduo.com^
+
+
+! ============================================================
+! 红果短剧 - 广告图片 / 广告素材
+! ============================================================
+
+||p6-ad-sign.byteimg.com^
+||p9-ad-sign.byteimg.com^
+
+
+! ============================================================
+! 红果短剧 - 广告追踪
+! ============================================================
+
+||mcs.snssdk.com^
+||log.snssdk.com^
+||mon.snssdk.com^
+
+
+! ============================================================
+! 以下大域名故意不封，避免红果正常功能异常
+!
+! ||snssdk.com^
+! ||zijieapi.com^
+! ||byteimg.com^
+! ||pstatp.com^
+! ||bytedance.com^
+!
+! ============================================================
