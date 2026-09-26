@@ -44,8 +44,6 @@
 @@||gov.cn^
 @@||zhihu.com^
 @@||163.com^
-@@||www.apple.com^$important
-@@||gsp1.apple.com^$important
 @@||aweme.snssdk.com^
 @@||api.amemv.com^
 @@||vv.video.qq.com^
