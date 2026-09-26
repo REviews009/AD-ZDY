@@ -351,24 +351,6 @@
 ||data.bilibili.com^
 ||log.bilibili.com^
 
-! 以下为B站广告/追踪域名
-||api.bilibili.com/x/v2/ad^$important
-||app.bilibili.com/x/v2/ad^$important
-||app.bilibili.com/x/v2/splash^$important
-||api.bilibili.com/x/v2/splash^$important
-||app.bilibili.com/x/resource/show/tab/v2^$important
-||api.bilibili.com/x/resource/show/tab/v2^$important
-||api.bilibili.com/x/resource/floating^$important
-||api.bilibili.com/x/resource/top/activity^$important
-||api.bilibili.com/x/resource/show/skin^$important
-||api.bilibili.com/x/resource/popup^$important
-||app.bilibili.com/x/v2/feed/index^$important
-||app.bilibili.com/x/v2/search/square^$important
-||api.bilibili.com/pgc/activity/deliver^$important
-||api.bilibili.com/x/v2/dm/advance^$important
-||api.bilibili.com/x/player/wbi/v2^$important
-||api.bilibili.com/x/resource/peak/download^$important
-
 
 ! ============================================================
 ! 抖音广告拦截
@@ -1471,6 +1453,12 @@
 ||zhangyuyidong.cn^
 
 
+! ============================================================
+! 自整理
+||dy.zzcdnx.com^
+||qznovelvod.com^
+||douyincdn.com^
+||douyinliving.com^
 
 
 ! ============================================================
